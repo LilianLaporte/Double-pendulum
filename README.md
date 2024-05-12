@@ -12,17 +12,19 @@ The 2 equilibrium positions chosen are up-up and down-down. This implies of usin
 
 #### Up-Up Position
 For this position, the chosen layout for the controller is a LQR (to simplify pole placement) coupled with a Luenberg observer (in order to reconstruct the full state). The design of the controller ended up with the following weights:  
-$$ Q=\begin{bmatrix}
+
+$$Q=\begin{bmatrix}
 10 & 0 & 0 & 0 & 0 \\
 0 & 20 & 0 & 0 & 0 \\
 0 & 0 & 200 & 0 & 0 \\
 0 & 0 & 0 & 110 & 0 \\
 0 & 0 & 0 & 0 & 10 \\
 \end{bmatrix}, R=350$$
+
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <div style="text-align:center;">
-    <img src="img/GIF/Up_Up.gif" alt="UPUP" width="200"/>
-    <img src="img/LQR_up_up.png" alt="LQR" width="650"/> 
+    <img src="img/GIF/Up_Up.gif" alt="UPUP" width="175"/>
+    <img src="img/LQR_up_up.png" alt="LQR" width="550"/> 
   </div>
 </div>
 
@@ -33,8 +35,8 @@ $$ P=1, I=0, D=-0.4$$
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <div style="text-align:center;">
-    <img src="img/GIF/Down_Down.gif" alt="DOWNDOWN" width="200"/>
-    <img src="img/pid_down_down.png" alt="PID" width="650"/> 
+    <img src="img/GIF/Down_Down.gif" alt="DOWNDOWN" width="175"/>
+    <img src="img/pid_down_down.png" alt="PID" width="550"/> 
   </div>
 </div>
 
