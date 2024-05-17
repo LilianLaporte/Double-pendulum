@@ -23,9 +23,7 @@ $$Q=\begin{bmatrix}
 
 <p align="center">
     <img src="img/GIF/Up_Up.gif" alt="UPUP" width="175"/>
-</p>
-<p align="center">
-  <img src="img/LQR_up_up.png" alt="LQR" width="550"/>
+    <img src="img/LQR_up_up.png" alt="LQR" width="550"/>
 </p>
 
 #### Down-Down Position
@@ -33,10 +31,7 @@ This position aims to reject input disturbances. The design has been achieved by
 
 $$ P=1, I=0, D=-0.4$$
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div style="text-align:center;">
+<p align="center">
     <img src="img/GIF/Down_Down.gif" alt="DOWNDOWN" width="175"/>
-    <img src="img/pid_down_down.png" alt="PID" width="550"/> 
-  </div>
-</div>
-
+     <img src="img/pid_down_down.png" alt="PID" width="550"/> 
+</p>
